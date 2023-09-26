@@ -1,6 +1,26 @@
 head{
-    font-family: 'Mystery Quest', cursive;
+    font-family: "Mystery Quest";
 }
+/* Mystery Quest/Regular */
+
+head{position: absolute;
+width: 490px;
+height: 252px;
+left: 22px;
+top: 26px;
+
+font-family: 'Mystery Quest';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 98px;
+
+color: #000000;}
+
+body{
+    background-color:orange
+}
+
 image{/* me 1 */
 
     position: absolute;
@@ -13,7 +33,8 @@ image{/* me 1 */
     
 
 }
-h1,h2,h3,h4,h5,h6, p{
+
+h1,h2,h3,h4,h5,h6,p,svg{
     margin:0;
     padding:0;
 }
