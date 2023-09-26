@@ -1,0 +1,19 @@
+head{
+    font-family: 'Mystery Quest', cursive;
+}
+image{/* me 1 */
+
+    position: absolute;
+    width: 74px;
+    height: 75px;
+    left: 635px;
+    top: 1186px;
+    
+    background: url(me.gif);
+    
+
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin:0;
+    padding:0;
+}
