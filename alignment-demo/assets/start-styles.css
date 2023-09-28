@@ -1,0 +1,198 @@
+:root {
+--orange:#fd753f;
+--light-blue:#87a7d7;
+--orange-tint:#ff9b73;
+--orange-shade:#ba562e;
+--black:#000;
+--white:#fff;
+}
+
+.demo-button{
+    display:block;
+    background-color:var(--orange-shade);
+}
+
+#letter-analysis {
+    display:none;}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.container {
+    width: 491px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--black);
+    height: 60px;
+  }
+
+ /******************************* ******** Letter & Button **********/ 
+  .letter-container {
+    width: 491px;
+    display: flex;
+    align-items: baseline;
+}
+.letter-container h1{
+    font-size: 300px;
+    font-weight: 700;
+    margin:0;
+}
+
+
+#button {
+    width: 66px;
+    height: 66px;
+    background-color: var(--orange);
+    margin-left: 31.28px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#button:hover {
+    background-color:var(--light-blue);
+    cursor:pointer;
+}
+
+/******************************* ******** Sample Set **********/
+.sample-set {
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 20px;
+    padding-bottom: 10px;
+}
+
+.overflow {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    clear: both;
+}
+
+
+/******************************* ******** Scrollbar Styling **********/
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 7.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--orange);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--orange-shade);
+}
+
+
+/******************************* ******** Body **********/
+.body {
+    margin-top: 36px;
+    margin-bottom: 52px;
+}
+
+.body h2 {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 6px;
+    color: var(--orange);
+}
+
+.body p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+/******************************* ******** Footer **********/
+footer {
+    font-family: "acumin-pro-condensed";
+    margin-bottom: 25%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.photo-title {
+    width: 300px;
+}
+
+.photo-title img {
+  height:94px;
+  width:94px;
+}
+
+.title {
+    width: 100px;
+    margin-left:10px;
+  }
+
+.sources {
+    width: 255px;
+    margin-left: 30px;
+}
+
+.title h3,
+.sources h3 {
+    font-size: 13.333px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: var(--orange);
+  }
+
+.sources h3 {
+    font-size: 10.6667px;
+    line-height: 18.6667px;
+    }
+
+.title p,
+.sources p {
+    font-size: 13.333px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.sources p {
+    font-size: 10.6667px;
+    line-height: 18.6667px;
+}
+
+.sources p:first-of-type {
+    margin: 0px 0px 12px 0px;
+}
+
+/* *********************** Links *********************** */
+a {
+    text-decoration: none;
+    color: var(--light-blue);
+    text-transform: uppercase;
+    transition: color 0.3s;
+
+}
+
+a:visited {
+    color: hsl(64, 100%, 73%);
+}
+
+a:hover {
+    color: var(--orange-tint);
+  }
