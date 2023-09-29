@@ -1,9 +1,13 @@
-head{
-    font-family: "Mystery Quest";
-}
-/* Mystery Quest/Regular */
 
-head{position: absolute;
+@font-face {
+    font-family: 'Mystery Quest';
+    src: url(Mystery_Quest/MysteryQuest-Regular.ttf);
+ }
+ 
+
+
+
+/* head{position: absolute;
 width: 490px;
 height: 252px;
 left: 22px;
@@ -15,10 +19,20 @@ font-weight: 400;
 font-size: 72px;
 line-height: 98px;
 
-color: #000000;}
+color: #000000;} */
 
 body{
+    font-family: 'Mystery Quest';
     background-color:orange
+}
+
+path.purple-flower {
+    fill:#92278F;
+    fill:red;
+    fill-opacity:0.8;
+}
+path.purple-flower:hover {
+    fill:blue;
 }
 
 .large-letter{
@@ -30,6 +44,31 @@ body{
     
 
 
+}
+.left-col,
+.right-col {
+width: 366px;
+}
+.right-col {
+    padding:42px;
+    background-color: blue;
+    position:relative;
+
+}
+
+
+.right-col .person-info,
+section {
+    display:flex;
+}
+section {
+    margin: 0 auto;
+    width: 1028px;
+    justify-content: space-between;
+}
+.person-info {
+    position:absolute;
+    bottom:42px;
 }
 
 image{/* me 1 */
