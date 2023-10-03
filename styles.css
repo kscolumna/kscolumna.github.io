@@ -28,11 +28,11 @@ body{
 
 path.purple-flower {
     fill:#92278F;
-    fill:red;
     fill-opacity:0.8;
 }
-path.purple-flower:hover {
-    fill:blue;
+
+.button:hover {
+    fill:#92278F
 }
 
 .large-letter{
@@ -51,10 +51,12 @@ width: 366px;
 }
 .right-col {
     padding:42px;
-    background-color: blue;
+    background-color: orange;
     position:relative;
 
 }
+
+
 
 
 .right-col .person-info,
