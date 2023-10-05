@@ -58,7 +58,10 @@ path.purple-flower {
 
 .large-letter{
     font-size:600px;
+    width:691px;
+    height:760px;
 }
+
 #button{position: absolute;
     width: 108px;
     height: 106px;
