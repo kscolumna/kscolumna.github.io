@@ -94,6 +94,14 @@ section {
     bottom:42px;
 }
 
+ button:hover{
+    background-image: "swirl.svg";
+ }   
+ 
+ .sample-set{
+    overflow: scroll;
+ }
+
 image{/* me 1 */
 
     position: absolute;
