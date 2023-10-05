@@ -51,10 +51,14 @@ path.purple-flower {
 }
 
 .button:hover {
-   fill: aqua;
+   fill: #92278F;
 }
 
 
+
+::-webkit-scrollbar-thumb{
+    background:#006416;
+}
 
 .large-letter{
     font-size:600px;
@@ -62,10 +66,12 @@ path.purple-flower {
     height:760px;
 }
 
-#button{position: absolute;
+#button{
+    position: absolute;
     width: 108px;
     height: 106px;
-    
+    top:569px;
+    left:44px;
 
 
 }
