@@ -3,10 +3,16 @@
     font-family: 'Mystery Quest';
     src: url(Mystery_Quest/MysteryQuest-Regular.ttf);
  }
+
+ body{
+    font-family: 'Mystery Quest';
+    background-color:orange;
+    width: 464px;
+    height: 1366px;
+    margin:0 auto;
+    padding:0;
+}
  
-
-
-
 /* head{position: absolute;
 width: 490px;
 height: 252px;
@@ -31,19 +37,48 @@ h6{
     font-size:18px;
 }
 .sample-set{
+    text-transform: capitalize;
     font-size: 65px;
-    overflow:scroll;
-    width:502px;
-    height:89px ;
+    font-weight: 400;
+    width:549px;
+    height:89px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    letter-spacing:10px;
 }
+
+::-webkit-scrollbar-thumb{
+    background:#006416;
+}
+.sample-set::-webkit-scrollbar-track{
+    width:1000px;
+    height:18px;
+    overflow:wrap;
+    flex-shrink: o;
+
+}
+.sample-set::-webkit-scrollbar{
+    background-color:#92278F;
+
+}
+.sample-set::-webkit-scrollbar-thumb{
+    background-color: #006416;
+
+}
+
+#button{
+    
+    width: 108px;
+    height: 106px;
+    position: absolute;
+    top:569px;
+    left:44px;
+}
+      
 p{
     font-size: 30px;
 }
 
-body{
-    font-family: 'Mystery Quest';
-    background-color:orange
-}
 
 path.purple-flower {
     fill:#92278F;
@@ -54,28 +89,33 @@ path.purple-flower {
    fill: #92278F;
 }
 
-
-
-::-webkit-scrollbar-thumb{
-    background:#006416;
+.title {
+    margin: 0 auto;
+    right: 100px;
 }
+
+.letter-container {
+    width: 691px;
+    height: 760px;
+    flex-shrink: 0;
+
+}
+
+#letterform-analysis img{
+    visibility:hidden;
+    opacity: 0;
+}
+
 
 .large-letter{
     font-size:600px;
-    width:691px;
-    height:760px;
+    width:600px;
+    height:819px;
+    margin:0;
 }
 
-#button{
-    position: absolute;
-    width: 108px;
-    height: 106px;
-    top:569px;
-    left:44px;
 
-
-}
-.left-col,
+/* .left-col,
 .right-col {
 width: 366px;
 }
@@ -84,10 +124,16 @@ width: 366px;
     background-color: orange;
     position:relative;
 
+} */
+.flowers{
+    overflow: auto;
 }
+#left-col {
+    background:url(orang.png)left top no-repeat;
+    padding:42px;
+    background-size: 93px, 1366px;
 
-
-
+}
 
 .right-col .person-info,
 section {
@@ -98,18 +144,15 @@ section {
     width: 1028px;
     justify-content: space-between;
 }
+footer {
+    display: flex;
+
+}
 .person-info {
     position:absolute;
     bottom:42px;
 }
-
- button:hover{
-    background-image: "swirl.svg";
- }   
  
- .sample-set{
-    overflow: scroll;
- }
 
 image{/* me 1 */
 
