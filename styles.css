@@ -37,22 +37,24 @@ h6{
     font-size:18px;
 }
 .sample-set{
-    text-transform: capitalize;
     font-size: 65px;
     font-weight: 400;
-    width:500px;
+    width: 500px;
     height:89px;
     overflow-x:scroll;
     overflow-y:hidden;
     letter-spacing:10px;
     margin-right: 20px;
+    position: relative;
+    top: 0px;
+    left: 90px;
 }
 
 ::-webkit-scrollbar-thumb{
     background:#006416;
 }
 .sample-set::-webkit-scrollbar-track{
-    width:1000px;
+    width:1366px;
     height:18px;
     overflow:wrap;
     flex-shrink: o;
@@ -60,6 +62,7 @@ h6{
 }
 .sample-set::-webkit-scrollbar{
     background-color:#92278F;
+    width:1366px;
 
 }
 .sample-set::-webkit-scrollbar-thumb{
@@ -68,7 +71,6 @@ h6{
 }
 
 #button{
-    
     width: 108px;
     height: 106px;
     position: absolute;
@@ -78,6 +80,8 @@ h6{
       
 p{
     font-size: 30px;
+    position: relative;
+    right: -30;
 }
 
 
@@ -88,11 +92,16 @@ path.purple-flower {
 
 .button:hover {
    fill: #92278F;
+   cursor: pointer;
+
 }
 
 .title {
     margin: 0 auto;
     right: 100px;
+    position: relative;
+    top: 0;
+    left: 40px;
 }
 
 #letter-container {
@@ -103,13 +112,18 @@ path.purple-flower {
 }
 
 #letterform-analysis{
-    /* visibility:hidden;
-    opacity: 0; */
+    visibility:hidden;
+    opacity: 0;
     position: absolute;
     top: 58px;
     left: 215px;
-}
 
+}
+#letterform-analysis.visible{
+    visibility: visible;
+    opacity: 1;
+    transition:opacity 0.5s;
+}
 
 .large-letter{
     font-size:600px;
@@ -138,8 +152,13 @@ width: 366px;
 }
 #top-flower{
     position: absolute;
-    left: -364px;
-    top: 0;
+    top: 101px;
+    left: -286px;
+}
+#bottom-flower{
+    position: absolute;
+    top: 390px;
+    left: -550px;
 }
 .left-col {
     background-image:url("orange.png");
@@ -147,7 +166,7 @@ width: 366px;
     background-size: 93px, 1366px; */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1080px;
+    height: 1366px;
 
 }
 
@@ -169,6 +188,9 @@ footer {
 }
 .person-info {
    width: 500px;
+   position: relative;
+   top: 11px;
+   left: 214px;
 }
  
 
@@ -187,7 +209,7 @@ footer {
     left: -86px;
 }
 
-h1,h2,h3,h4,h5,h6,p,svg{
+h1,h2,h3,h4,h5,h6,p{
     margin:0;
     padding:0;
 }
