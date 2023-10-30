@@ -40,11 +40,12 @@ h6{
     text-transform: capitalize;
     font-size: 65px;
     font-weight: 400;
-    width:549px;
+    width:500px;
     height:89px;
     overflow-x:scroll;
     overflow-y:hidden;
     letter-spacing:10px;
+    margin-right: 20px;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -140,12 +141,16 @@ width: 366px;
     left: -364px;
     top: 0;
 }
-#left-col {
-    background:url(orang.png)left top no-repeat;
-    padding:42px;
-    background-size: 93px, 1366px;
+.left-col {
+    background-image:url("orange.png");
+    /* padding:42px;
+    background-size: 93px, 1366px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
 
 }
+
 
 .right-col .person-info,
 section {
@@ -157,18 +162,17 @@ section {
     justify-content: space-between;
 }
 footer {
-    position: relative;
-    top: 380;
-    left: 800px;
+    display:flex;
+    margin-top: -180px;
+    width: 1028px;
 
 }
 .person-info {
-    position:absolute;
-    bottom:42px;
+   width: 500px;
 }
  
 
-image {/* me 1 */
+#image {/* me 1 */
 
     /* position: absolute;
     width: 74px;
