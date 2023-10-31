@@ -28,6 +28,7 @@ line-height: 98px;
 color: #000000;} */
 h1{
     font-size: 72px;
+    font-weight: normal;
    
 }
 h5{
@@ -111,19 +112,20 @@ path.purple-flower {
 
 }
 
-#letterform-analysis{
-    visibility:hidden;
+#letterform-analysis.visible{
     opacity: 0;
+    visibility:hidden;
+}
+
+#letterform-analysis{
+    visibility: visible;
+    opacity: 1;
     position: absolute;
     top: 58px;
     left: 215px;
-
-}
-#letterform-analysis.visible{
-    visibility: visible;
-    opacity: 1;
     transition:opacity 0.5s;
 }
+
 
 .large-letter{
     font-size:600px;
@@ -209,7 +211,13 @@ footer {
     left: -86px;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+#sources{
+    position: relative;
+    left: 30px;
+    top: 110px;
+}
+
+h1,h2,h3,h4,h5,h6,p,body{
     margin:0;
     padding:0;
 }
