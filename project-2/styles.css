@@ -1,0 +1,52 @@
+/* This is the main ccs stylesheet for kscolumna.github.io/project-2 site */
+
+/******* Typography ******/
+:root {
+    --serif:'Italiana';font-size: 22px; ;
+    --sans:'Poppins';font-size: 22px; ;
+    --display: ;
+}
+
+/***********Color */
+
+
+/******* Navigation */
+
+/************** Layout************/
+
+section{
+    width:100vw;
+    height:100vh;
+    padding:60px;
+
+}
+
+#first-section{
+    background-color: red;
+    font-family:var(--sans);
+}
+
+#second-section{
+    background-color:blue;
+    font-family:var(--display);
+}
+
+#third-section{
+    background-color: green;
+    font-family:var(--serif);
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
+.chunk{
+    background-color: white;
+}
+
+.image{
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+}
