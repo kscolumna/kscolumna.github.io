@@ -3,16 +3,22 @@
 /******* Typography ******/
 :root {
     --serif:'Italiana';font-size: 22px; ;
-    --sans:'Poppins';font-size: 22px; ;
-    --display: ;
+    --sans:'Poppins';font-size: 70px; ;
+    --display: 'Planet Kosmos',sans-serif;
 }
 
 /***********Color */
 
 
 /******* Navigation */
+nav{width: 1440px;
+height: 55px;
+flex-shrink: 0;
+background-color: #AAAED9;}
 
 /************** Layout************/
+body{width: 1440px;
+height: 6036px;}
 
 section{
     width:100vw;
@@ -22,23 +28,29 @@ section{
 }
 
 #first-section{
-    background-color: red;
     font-family:var(--sans);
 }
 
 #second-section{
-    background-color:blue;
+background-color: #AAAED9;
     font-family:var(--display);
+    width: 1440px;
+    height: 989px;
+    flex-shrink: 0;
+
 }
 
 #third-section{
-    background-color: green;
     font-family:var(--serif);
+    width: 1440px;
+    height: 989px;
+    flex-shrink: 0;
 }
 
 .flex{
     display:flex;
     flex-direction: row;
+
 }
 
 .chunk{
@@ -49,4 +61,26 @@ section{
     width: 500px;
     height: 300px;
     background-color: aquamarine;
+}
+
+h1{
+    font-family:var(--serif)
+}
+h2{
+   font-family: var(--sans);
+   font-size:35px;
+}
+h3{
+    font-family: var(--display);
+
+}
+
+cover{
+    color: var(--Periwinkle, #AAAED9);
+text-align: center;
+font-family: Planet Kosmos;
+font-size: 150px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 10.667% */
 }
