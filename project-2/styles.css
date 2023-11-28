@@ -2,10 +2,30 @@
 
 /******* Typography ******/
 :root {
-    --serif:'Italiana';font-size: 22px; ;
-    --sans:'Poppins';font-size: 70px; ;
+    --serif:'Italiana';font-size: 30px;
+    --sans:'Poppins';font-size: 30px; ;
     --display: 'Planet Kosmos',sans-serif;
 }
+
+y2k{
+    font-family: Planet Kosmos;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    }
+
+    cover{
+        color: var(--Periwinkle, #AAAED9);
+    text-align: center;
+    font-family: Planet Kosmos;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 10.667% */
+    position: relative;
+    top: 229px;
+    left: 576px;
+    }
 
 /***********Color */
 
@@ -43,7 +63,7 @@ section{
 }
 
 #second-section{
-background-color: #AAAED9;
+
     font-family:var(--display);
     width: 1440px;
     height: 989px;
@@ -52,6 +72,7 @@ background-color: #AAAED9;
 }
 
 #third-section{
+    background-color: #AAAED9;
     font-family:var(--serif);
     width: 1440px;
     height: 989px;
@@ -89,16 +110,15 @@ p{
     font-family:"Poppins";
     font-size:25px;
 }
+#right-sect{
+    flex-shrink: 0;
+    width: 756px;
+    height:2687px;
 
-cover{
-    color: var(--Periwinkle, #AAAED9);
-text-align: center;
-font-family: Planet Kosmos;
-font-size: 150px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px; /* 10.667% */
-position: relative;
-top: 229px;
-left: 576px;
+}
+#left-sect{
+    flex-shrink: 0;
+    width: 756px;
+    height:2687px;
+
 }
