@@ -7,6 +7,17 @@
     --display: 'Planet Kosmos',sans-serif;
 }
 
+clean{
+    font-family: 'Poppins';
+    font-size: 100px;
+    width: 504px;
+}
+coquette{
+    font-family: 'Italiana';
+    font-size:100px;
+    width:391px;
+}
+
 y2k{
     font-family: Planet Kosmos;
     font-size: 100px;
@@ -79,6 +90,16 @@ section{
     flex-shrink: 0;
 }
 
+#clean-girl-desc{
+    position: relative;
+    top: 468px;
+    left: 897px;
+   
+}
+
+
+
+
 .flex{
     display:flex;
     flex-direction: row;
@@ -110,13 +131,15 @@ p{
     font-family:"Poppins";
     font-size:25px;
 }
-#right-sect{
+.right-sect{
+    display:flex;
     flex-shrink: 0;
     width: 756px;
     height:2687px;
 
 }
-#left-sect{
+.left-sect{
+    display:flex;
     flex-shrink: 0;
     width: 756px;
     height:2687px;
