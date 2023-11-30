@@ -7,25 +7,25 @@
     --display: 'Planet Kosmos',sans-serif;
 }
 
-clean{
+h3 { 
     font-family: 'Poppins';
     font-size: 100px;
     width: 504px;
 }
-coquette{
+h4{
     font-family: 'Italiana';
     font-size:100px;
     width:391px;
 }
 
-y2k{
-    font-family: Planet Kosmos;
+h5 {
+    font-family: 'Planet Kosmos';
     font-size: 100px;
     font-style: normal;
     font-weight: 400;
     }
 
-    cover{
+ h6 { 
         color: var(--Periwinkle, #AAAED9);
     text-align: center;
     font-family: Planet Kosmos;
@@ -96,6 +96,10 @@ section{
     left: 897px;
    
 }
+#y2k-desc{
+    position: relative;
+
+}
 
 
 
@@ -123,10 +127,7 @@ h2{
    font-family: var(--sans);
    font-size:35px;
 }
-h3{
-    font-family: var(--display);
 
-}
 p{
     font-family:"Poppins";
     font-size:25px;
