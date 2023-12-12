@@ -7,22 +7,44 @@
     --display: 'Planet Kosmos',sans-serif;
 }
 
+h1{
+    font-family:var(--serif);
+    margin:0px;
+}
+
+
+h2{
+   font-family: var(--sans);
+   font-size:35px;
+   text-align:center;
+   padding:40px;
+   margin:0;
+}
+
 h3 { 
     font-family: 'Poppins';
     font-size: 100px;
     width: 504px;
+    margin: 0px 0px 0px 150px;
 }
 h4{
     font-family: 'Italiana';
-    font-size:100px;
-    width:391px;
+    font-size: 100px;
+    width: 391px;
+    margin: 0;
+    padding: 0px 0px 40px 250px;
+
 }
 
 h5 {
-    font-family: 'Planet Kosmos';
+      font-family: 'Planet Kosmos';
     font-size: 100px;
     font-style: normal;
     font-weight: 400;
+    color: #AAAED9;
+    margin: 0px 0px 0px 60px;
+
+
     }
 
  h6 { 
@@ -31,36 +53,100 @@ h5 {
     font-family: Planet Kosmos;
     font-size: 150px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 16px; /* 10.667% */
     position: relative;
     top: 229px;
     left: 576px;
     }
 
-/***********Color */
+ p {
+        font-family:"Poppins";
+        font-size:25px;
+        padding:40px 40px 40px 40px;
+    
+    }
 
+#cover-title{
+    font-size: 150px;
+    position: relative;
+    top: 90px;
+    right: -700px;
+    margin: 0px;
+    font-family: var(--display);
+    color: #AAAED9;
+    width: 700px;
+}
+
+#clean-title{
+    font-size: 150px;
+    position: relative;
+    top: -930px;
+    left: 400px;
+    margin: 0px;
+    font-family: var(--serif);
+    width: 700px;
+}
+#y2k-title{
+    font-size: 150px;
+    position: relative;
+    top: -930px;
+    right: -690px;
+    margin: 0px;
+    font-family: var(--display);
+    color: #C691C8;
+    width: 700px;
+
+}
+.description{
+    font-family: "Italiana";
+    font-size:60px;
+    position: absolute;
+    top: 80px;
+    left: 335px;
+}
 
 /******* Navigation */
 nav{
 display:flex;
-    width: 100%;
+ width: 1500px;
 height: 55px;
-justify-content:space-between ;
+justify-content: flex-end;
 background-color: #AAAED9;
 font-family:"Poppins";
-font: size 30px;;
-padding:56px 0}
+font-size: 30px;
+text-decoration: none;
+}
+
+li{
+    padding-right:50px;
+    text-decoration: none;
+
+}
+a:any-link{
+    color: white;
+    background-color: transparent;
+    text-decoration:none;
+  }
+
+a:hover {
+    color: navy;
+    background-color: transparent;
+    transition:.5s ease-in-out;
+  }
+
 
 nav ul {
     list-style-type:none;
     display:contents;
+    
 
 }
 
 /************** Layout************/
-body{width: 1440px;
-height: 6036px;}
+body{
+    width: 1440px;
+margin: 0;}
 
 section{
     width:100vw;
@@ -68,19 +154,64 @@ section{
     padding:60px;
 
 }
+.container-1{
+    width: 1440px;
+height: 6036px;
+}
+.container-2{
+    width: 1440px;
+height: 2800px;
+
+}
 
 #first-section{
     font-family:var(--sans);
 }
 
-#second-section{
+#box {
+    /* background-color: #cfc ; */
+   text-align: center;
+    border: 3px solid #AAAED9 ;
+    width:344px;
+    height:172px;
+    font-family: "Italiana";
+    font-size: 50px;
+    margin:auto;
+  }
 
-    font-family:var(--display);
+#purple-box {
+    background-color: #AAAED9;
+    color: white;
+    padding: 10px 70px 0px 70px;
+    text-align: center;
+    width: 344px;
+    height: 172px;
+    font-family: "Italiana";
+    font-size: 50px;
+    margin: 0;
+  }
+
+
+#second-section{
+    position: relative;
+    color: white;
+    font-family: "Poppins";
     width: 1440px;
     height: 989px;
     flex-shrink: 0;
+    top:-110px;
 
 }
+.second-section-clean{
+    background-color: #039B54;
+}
+.second-section-coquette{
+    background-color: #902B35;
+}
+.second-section-y2k{
+    background-color: #AAAED9;
+}
+
 
 #third-section{
     background-color: #AAAED9;
@@ -88,20 +219,85 @@ section{
     width: 1440px;
     height: 989px;
     flex-shrink: 0;
+    color:white;
+    text-align: center;
 }
 
-#clean-girl-desc{
+#fourth-section{
+    font-family:var(--serif);
+    width: 1440px;
+    height: 989px;
+    flex-shrink: 0;
+    text-align: center;
+}
+#fifth-section{
+    width: 1440px;
+    height: 989px;
+    flex-shrink: 0;
+    padding:0;
+    margin: 0px;
     position: relative;
-    top: 468px;
-    left: 897px;
-   
-}
-#y2k-desc{
-    position: relative;
+   top:-110px;
 
 }
+#clean-desc{
+    position: absolute;
+    top:140px;
+    left:206px;
+}
+#clean-video{  
+    position: absolute;
+    top: 90px;
+    left: 650px;
+    text-align: center;
+    width: 498px;
+
+}
+#y2k-video{ 
+    position: absolute;
+    top: 90px;
+    left: 650px;
+    text-align: center;
+    width: 498px;
+
+}
+#y2k-pink-desc{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 885px;
+    text-align: center;
+    width: 300px;
+    background-color: #C691C8;
+    margin: 0px;
+
+}
 
 
+#y2k-text-2{
+
+    position: absolute;
+    color: black;
+    font-family: "Poppins";
+    width: 400px;
+    height: 380px;
+    flex-shrink: 0;
+    top: 361px;
+    right: 252px;
+    border: 3px solid #AAAED9;
+
+}
+
+#clean-text-2{
+    background-color: #039B54;
+    position: absolute;
+    top: 610px;
+    font-family: "Poppins";
+    /* padding: 20px; */
+    height: 220px;
+    width: 408px;
+    left: 686px;
+}
 
 
 .flex{
@@ -114,25 +310,13 @@ section{
     background-color: white;
 }
 
-.image{
-    width: 500px;
-    height: 300px;
-    background-color: aquamarine;
+.relative{
+    position:relative;
 }
 
-h1{
-    font-family:var(--serif)
-}
-h2{
-   font-family: var(--sans);
-   font-size:35px;
-}
 
-p{
-    font-family:"Poppins";
-    font-size:25px;
-}
 .right-sect{
+    flex-direction:column;
     display:flex;
     flex-shrink: 0;
     width: 756px;
@@ -144,5 +328,456 @@ p{
     flex-shrink: 0;
     width: 756px;
     height:2687px;
+    float:left;
 
+}
+.square{
+    width:730px;
+    height: 900px;
+}
+
+#y2k-square{
+    position: relative;
+    top: 694px;
+    left: -345px;
+}
+
+#coquette-square{
+    position: relative;
+    top: 1100px;
+    left: 0;
+    height: 700px;
+    display: content;
+}
+
+#clean-girl-square{
+position:relative;
+top:200px;
+left:0;
+display:block;
+
+}
+#trends {
+    width: 923px;
+    height: 209px;
+    position: relative;
+    top: -330px;
+    left: -70px;
+
+
+}
+
+
+/************** content************/
+hr {
+    width: 50%;
+    border: 3px solid white
+    
+  }
+  hr.new1 {
+    border: 3px solid #039B54;
+    border-radius: 5px;
+    width: 406px;
+    margin: 0;
+  }
+
+button{
+font-family:"Italiana";
+font-size: 35px;
+color:white; 
+text-decoration: none;
+border-radius:15px;
+ transition:.5s ease-in-out;
+width: 275px;
+height: 65px;
+padding: 15px;
+text-align: center;
+
+}
+
+
+#clean-button{
+    position: relative;
+    background-color: #039B54;
+    text-decoration: none;
+    transition: ease-in-out;
+    left: 340px;
+    top: -150px;
+
+}
+
+#clean-button:hover{
+    background-color:black;
+    transition: ease-in-out;
+}
+
+#y2k-button{
+    position: absolute;
+    background: var(--Pink-Purple, #C691C8);
+    top: 1092px;
+    left: 80px;
+    text-decoration: none;
+    transition: ease-in-out;
+  
+
+}
+#y2k-button:hover {
+    background-color:black;
+    transition: ease-in-out;
+}
+
+#coquette-button{
+    position: relative;
+    background-color: #902B35;
+    transition: ease-in-out;
+    text-decoration: none;
+    top: 50px;
+    left: 340px;
+
+}
+
+#coquette-button:hover{
+    background-color:black;
+    transition: ease-in-out;
+}
+
+button:hover{
+    background-color:black;
+    transition:.5s ease-in-out;
+    text-decoration: underline;
+}
+
+
+.front-cover {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.tall-rectangle{
+    position: relative;
+    top: -360px;
+    left: 100px;
+    width: 283px;
+    height: 703px;
+    flex-shrink: 0;
+}
+.small-rectangle{
+    position: absolute;
+    width: 291px;
+    height: 27px;
+    top: 1300px;
+    flex-shrink: 0;
+    left: 1221px;
+}
+.purple-bar{
+    width: 730px;
+    background-color: #AAAED9;
+    height:40px;
+}
+.purple-square{
+    position: relative;
+    width: 425px;
+    height: 238px;
+    top: 630px;
+    left: -101px;
+
+}
+.purple-square-mj{
+    position: absolute;
+    width: 390px;
+    height: 322px;
+    top: 1460px;
+    left: 40px;
+}
+.purple-square-ear{ 
+      position: relative;
+    width: 450px;
+    height: 420px;
+    top: -350px;
+    left: 40px;
+
+}
+
+.grey-block-left{
+    position: relative;
+    width: 313px;
+    height: 876px;
+    top: -60px;
+    left: -60px;}
+
+.grey-block-right{
+    position: absolute;
+    width: 313px;
+    height: 876px;
+    left: 1187px;
+    top: 55px;
+}
+
+.grey-rectangle-left{
+    position: relative;
+    width:313px;
+    height: 990px;
+}
+.grey-rectangle-right-clean{
+    position: relative;
+    width: 313px;
+    height: 990px;
+    left: 364px;
+}
+.grey-rectangle-right-y2k{
+    position: relative;
+    width: 313px;
+    height: 990px;
+    left: 144px;
+}
+.grey-rectangle-right-coquette{
+    position: absolute;
+    width: 313px;
+    height: 990px;
+    left: 1204px;
+    top: 0px;
+}
+
+.back-block{
+    position: absolute;
+    height: 366px;
+    width: 160px;
+    top: 150px;
+    left: 450px;
+    margin: 0;
+}
+
+.back-block-white{
+    position: absolute;
+    height: 604px;
+    width: 276px;
+    top: 100px;
+    left: 1040px;
+
+}
+.pink-bar{
+    position: relative;
+    top: 9px;
+    left: -238px;
+    width: 455px;
+    height: 65px;
+}
+
+.text-top{
+      font-size: 20px;
+    position: absolute;
+    width: 250px;
+    top: 314px;
+    left: 650px;
+    height: 492px;
+    text-align: left;
+    
+}
+.text-bottom{   
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    width: 380px;
+    top: -570px;
+    left: 670px;
+    height: 141px;
+    text-align: left;
+    padding: 20px;
+
+}
+.clean-text2{
+    width: 450px;
+    height: 475px;
+    position: relative;
+    font-family: "Poppins";
+    font-size: 30px;
+    top: -800px;
+    left: 150px;
+    border: solid 3px white;
+    padding: 30px;
+
+}
+.y2k-text{
+    color:black;
+    width: 450px;
+    height: 475px;
+    position: relative;
+    font-family: "Poppins";
+    font-size: 30px;
+    top: -800px;
+    left: 150px;
+    background-color: white;
+    padding: 30px;
+
+}
+
+#clean-text-bottom{
+    position:relative;
+    background-color: #039B54;
+}
+#y2k-text-bottom{
+    position: relative;
+    background-color: #AAAED9;   
+    
+}
+#coquette-text{
+    position: absolute;
+    top: 380px;
+    left: 830px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    background-color: #902B35;
+    margin: 0px;
+    width: 449px;
+    border: 3px solid;
+}
+#coquette-text-2{
+    font-family: "Poppins";
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left: 710px;
+    color: White;
+    text-align: center;
+    width: 380px;
+    height: 210px;
+    background-color: #902B35;
+    margin: 0px;
+    padding: 30px 30px 0px 30px;
+   
+
+}
+#coquette-text-bottom{
+    position: relative;
+    background-color: #902B35;
+    top: -440px;
+}
+.red-border{
+    position: absolute;
+    top: 530px;
+    left: 340px;
+    width: 426px;
+    height: 423px;
+}
+
+
+.tiktok{
+    display: block;
+    position: relative;
+    left: 430px;
+    width: 616px;
+    height: 340px;
+}
+
+
+/************** images************/
+.clean-girl-1{
+    position: relative;
+    margin: 0;
+    top: -247px;
+    left: -220px;
+}
+.clean-girl-2{
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    height: 673px;
+    left: 180px;
+
+}
+.clean-girl-3{
+    position: relative;
+    margin:0;
+    height: 885px;
+    left: -100px;
+}
+.clean-girl-4{
+    position: absolute;
+    margin: 0;
+    width: 287px;
+    height: 478px;
+    top: 230px;
+    left: 840px;
+}
+.clean-girl-5{
+    position: relative;
+    top: -60px;
+    left: 700px;
+    height: 990px;
+    width: 737px;
+}
+
+
+.y2k-2{
+    position: relative;
+    left: 720px;
+    top: -300px;
+    margin: 0;
+
+}
+.y2k-3{
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    height: 673px;
+    left: 250px;
+
+}
+.y2k-pink{
+    position: relative;
+    top: -60px;
+    left: 700px;
+    height: 990px;
+    width: 737px;
+
+}
+.y2k-5{
+    position: relative;
+    top: 5px;
+    left: -100px;
+}
+.coquette{
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    height: 673px;
+    left: 200px;
+    
+}
+.coquette-3{
+    position: relative;
+    margin:0;
+    width:441px;
+    height:623px;
+    top:0px;
+    left:0px;
+
+}
+.glasses{
+    position:relative;
+    width:686px;
+    height:307px;
+    top: 460px;
+    left: 0;
+   
+
+}
+.earrings{
+    position: absolute;
+    left: 130px;
+    top: -206px;
+    width: 536px;
+    height: 389px;
+    margin: 0 40 0;
+}
+.maryjanes{
+    position: relative;
+    width: 605px;
+    height: 360px;
+    margin: 0 40 0;
+    top: 510px;
+    left: 100px;
 }
